@@ -864,6 +864,8 @@ body {
         height: 1080px;
         width: 8px;
         display: none;
+        position: relative;
+        top: 600px;
     }
 
     .cards-text {
