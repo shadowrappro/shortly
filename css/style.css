@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/Inter18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter18pt-Bold.woff2') format('woff2'),
+        url('../fonts/Inter18pt-Bold.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 /* Burger menu */
@@ -1047,5 +1063,9 @@ body {
 
     .hei-back-line {
         height: 600px;
+    }
+
+    .cta-title {
+        font-size: 25px;
     }
 }
